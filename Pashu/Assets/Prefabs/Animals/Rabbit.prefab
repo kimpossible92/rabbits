@@ -1919,7 +1919,7 @@ MonoBehaviour:
   healthReductionSpeed: 2
   foodIndicator: {fileID: 2835442964484569712}
   waterIndicator: {fileID: 6028052365829892326}
-  deathText: {fileID: 0}
+  deathText: {fileID: 1542774404514956488}
   animalName: 
   animalAge: 0
   Bomb: {fileID: 6671093426771757217, guid: 560fdf05f8b10b64789193116b249349, type: 3}
@@ -2106,3 +2106,15 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5851284860895984686}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1542774404514956488 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4925523684325505254, guid: 0d48fa0694ef0c54b9c5f2073b69f316,
+    type: 3}
+  m_PrefabInstance: {fileID: 5851284860895984686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

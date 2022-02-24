@@ -185,7 +185,7 @@ public class cameraController : MonoBehaviour
         if (!EventSystem.current.IsPointerOverGameObject())
         {
 
-
+            if (Input.GetKey(KeyCode.R)) { newZoom += Input.GetAxis("Vertical")*zoomAmount; }
             if (Input.mouseScrollDelta.y != 0)
             {
                 newZoom += Input.mouseScrollDelta.y * zoomAmount;
