@@ -183,7 +183,14 @@ public class cameraController : MonoBehaviour
 
         CameraTransform.localPosition = Vector3.Lerp(CameraTransform.localPosition, newZoom, Time.deltaTime * moveTime);
     }
-
+    public void zoom1plus()
+    {
+        newZoom += 1f* zoomAmount;
+    }
+    public void zoom2minus()
+    {
+        newZoom += -1f * zoomAmount;
+    }
     void MouseInput()
     {
         if (!EventSystem.current.IsPointerOverGameObject())
