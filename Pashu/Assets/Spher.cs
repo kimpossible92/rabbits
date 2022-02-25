@@ -22,6 +22,7 @@ public class Spher : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<DogController>() != null)
         {
+            print("deadDog"+collision.gameObject.name);
             Destroy(collision.gameObject);
         }
     }

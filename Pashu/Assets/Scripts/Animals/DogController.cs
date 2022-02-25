@@ -239,8 +239,8 @@ public class DogController : MonoBehaviour
         return closest;
     }
 
-    public void OnMouseDown()
-    {
-        cameraController.instance.followTransform = transform;
-    }
+    //public void OnMouseDown()
+    //{
+    //    cameraController.instance.followTransform = transform;
+    //}
 }

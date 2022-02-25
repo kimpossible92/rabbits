@@ -142,6 +142,7 @@ public class cameraController : MonoBehaviour
             var prev = Instantiate(previewBomb, raycastHit.point, Quaternion.identity);
             preViewBomb_ = prev;
             setBomb = true;
+            Invoke("NullTarget", 0.2f);
             //if (animalController != null)
             //{
             //    animalController.SetTheBomb(raycastHit.point);
@@ -149,7 +150,10 @@ public class cameraController : MonoBehaviour
         }
         
     }
-
+    private void NullTarget()
+    {
+        animalController.SetTarget(animalController.transform.position);
+    }
     void HandleInput()
     {
         newZoom.y = Mathf.Clamp(newZoom.y, 10, 150);
